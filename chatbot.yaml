@@ -15,8 +15,5 @@ sts:
 caila:
     noMatchThreshold: 0.2
     
-dependencies:
-  - name: пше-fake
-    type: git
-    url: https://github.com/just7ai/zb04_fake_git.git
-    version: main
+injector:
+  api_dog: 'dogsssssss'
