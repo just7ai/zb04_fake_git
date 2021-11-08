@@ -1,0 +1,22 @@
+name: zb-cailapub
+
+entryPoint: main.sc
+
+botEngine: v2
+language: ru
+
+tests:
+  include:
+    - test.xml
+
+sts:
+    noMatchThreshold: 0.2
+
+caila:
+    noMatchThreshold: 0.2
+    
+dependencies:
+  - name: пше-fake
+    type: git
+    url: https://github.com/just7ai/zb04_fake_git.git
+    version: main
