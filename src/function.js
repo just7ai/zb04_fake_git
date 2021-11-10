@@ -1,3 +1,3 @@
 function getResult() {
-    return 10 + $jsapi.session.number
+    return 10 + $jsapi.context().session.number
 }
