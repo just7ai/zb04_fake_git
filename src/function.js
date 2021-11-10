@@ -1,3 +1,3 @@
 function getResult() {
-    return 10 + number
+    return 10 + $session.number
 }
