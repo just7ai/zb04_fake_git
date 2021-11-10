@@ -1,5 +1,5 @@
-require: slotfilling/slotFilling.sc
-  module = sys.zb-common
+require: function.js
+
 theme: /
 
     state: Start
@@ -8,7 +8,7 @@ theme: /
 
     state: Hello
         intent!: /привет
-        a: Привет привет
+        a: Привет  {{ getResult(number) }}
 
     state: Bye
         intent!: /пока
